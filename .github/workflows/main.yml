@@ -43,4 +43,7 @@ jobs:
         channel: 'stable' # or: 'dev' or 'beta'
     - run: flutter pub get
     - run: flutter build apk
+    - run: git add .
+    - run: git commit . -m "added build"
+    - run: git push
 
