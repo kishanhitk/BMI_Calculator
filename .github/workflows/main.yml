@@ -43,6 +43,8 @@ jobs:
         channel: 'stable' # or: 'dev' or 'beta'
     - run: flutter pub get
     - run: flutter build apk
+    - run: git config --global user.email "kishansharma1231@gmail.com"
+    - run: git config --global user.name "kishanhitk"
     - run: git add .
     - run: git commit . -m "added build"
     - run: git push
