@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
           scaffoldBackgroundColor: Color(0xFF090C22),
-          primaryColor: Color(0xFF090C22)),
+          primaryColor: Color(0xFF090C23)),
       home: InputPage(),
     );
   }
